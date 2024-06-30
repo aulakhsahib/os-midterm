@@ -202,3 +202,9 @@ Installing Docker on Windows is simple as long as you follow the Docker desktop 
 
 * When you make a request to `http://localhost:8080/api/books/1`, you will get a JSON message with just one book.  
     ![api-book1](./screenshots/api_books_1.png)
+
+## References
+
+* [Docker Tutorial For Beginners](https://www.youtube.com/watch?v=gAkwW2tuIqE)
+
+* [Docker Documentation](https://docs.docker.com/)
