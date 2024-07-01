@@ -2,7 +2,7 @@
 
 ## Installation
 
-Installing Docker on Windows is simple as long as you follow the Docker desktop installer. Install WSL before it because it is recommended in the Docker documentation.
+Installing Docker on Windows is simple as long as you follow the Docker desktop installer. Install WSL before it because it is recommended in the Docker documentation. [For more information vist Docker's guide on installing docker on windows.](https://docs.docker.com/desktop/install/windows-install/)
 
 ## Challenge 1: Simple Web Server for Static Web Pages
 
@@ -10,7 +10,7 @@ Installing Docker on Windows is simple as long as you follow the Docker desktop 
 
 1. Create the `index.html` File
 
-    * Create a directory for your project name it what you like. In this case I am using `simple-web-server`.
+    * Create a directory for your project, name it what you like. In this case I am using `simple-web-server`.
     * Inside this directory, create a file named `index.html` with the following content:
 
         ```html
@@ -28,7 +28,7 @@ Installing Docker on Windows is simple as long as you follow the Docker desktop 
 
 2. Create the `Dockerfile`
 
-    * In the same directory, create a file named Dockerfile with the following content:
+    * In the same directory, create a file named `Dockerfile` with the following content:
 
         ```dockerfile
         FROM nginx:latest
@@ -69,7 +69,7 @@ Installing Docker on Windows is simple as long as you follow the Docker desktop 
 
 1. Set Up the Application
 
-    * Create a directory for your project name it what you like. In this case I am using `dynamic-app`.
+    * Create a directory for your project, name it what you like. In this case I am using `dynamic-app`.
     * Inside this directory, create a subdirectory named `app`.
 
 2. Create the Application Code
